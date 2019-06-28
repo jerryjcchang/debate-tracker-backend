@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_27_191925) do
+ActiveRecord::Schema.define(version: 2019_06_28_013554) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2019_06_27_191925) do
     t.integer "ec", default: 3
     t.integer "im", default: 3
     t.integer "gc", default: 3
+    t.integer "cg", default: 3
   end
 
 end
