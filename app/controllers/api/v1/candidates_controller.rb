@@ -1,7 +1,7 @@
 class Api::V1::CandidatesController < ApplicationController
 
   def index
-    render json: Candidate.all.sort_by{|c| c.id}
+    render json: Candidate.all.sort_by{|c| -c.poll}
   end
 
   def update
