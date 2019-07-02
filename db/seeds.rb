@@ -1,5 +1,3 @@
-require 'byebug'
-
 data = [
     {
       name: "Joseph R. Biden Jr.",
